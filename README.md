@@ -19,7 +19,7 @@ This mod aims to bring the universe of the AI vtuber Neuro-sama to brotato, the 
 * Anny: [Twitch channel](https://www.twitch.tv/anny)
 * Otozuki Teru: [Youtube channel](https://www.youtube.com/@OtozukiTeru)
 
-* Main menu art by 2Pfrog, check out his [Twitter page](url=https://twitter.com/2Pfrog) and [Youtube channel](https://www.youtube.com/@2pfrog)
+* Main menu art by 2Pfrog, check out his [Twitter page](https://twitter.com/2Pfrog) and [Youtube channel](https://www.youtube.com/@2pfrog)
 * Neuro Sama & Evil characters hair by paccha, check out their [Twitter page](https://twitter.com/paccha_7)
 * Neuro Sama hair for the brotato logo by ????
 
