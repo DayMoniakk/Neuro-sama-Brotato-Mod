@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://effects/items/turret_effect.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone_explosive/swarm_drone_explosive_stats.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone_explosive/Swarm Drone Explosive.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/swarm_drone_explosive/swarm_drone_rocket_exploding_effect.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 1 )
+key = "swarm_drone_explosive"
+text_key = "effect_swarm_drone_explosive"
+value = 1
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]
+spawn_cooldown = -1
+scene = ExtResource( 3 )
+stats = ExtResource( 2 )
+effects = [ ExtResource( 4 ) ]
+spawn_around_player = 200
+can_be_grouped = true
+shooting_animation_speed = 1.0
+is_burning = false
+is_spawning = false

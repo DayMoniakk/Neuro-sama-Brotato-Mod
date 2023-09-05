@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone_explosive/neuromod_swarm_drone_explosive.png" type="Texture" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone.tscn" type="PackedScene" id=2]
+
+[node name="Swarm Drone Explosive" instance=ExtResource( 2 )]
+
+[node name="Sprite" parent="Animation" index="0"]
+texture = ExtResource( 1 )

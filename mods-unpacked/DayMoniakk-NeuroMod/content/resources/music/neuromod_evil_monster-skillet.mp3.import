@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_monster-skillet.mp3-b0965c10a46e134fa4e4825083fae181.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_monster-skillet.mp3"
+dest_files=[ "res://.import/neuromod_evil_monster-skillet.mp3-b0965c10a46e134fa4e4825083fae181.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

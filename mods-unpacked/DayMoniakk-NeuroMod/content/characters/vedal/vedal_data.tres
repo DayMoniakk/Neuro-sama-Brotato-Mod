@@ -1,0 +1,56 @@
+[gd_resource type="Resource" load_steps=39 format=2]
+
+[ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/neuromod_vedal_icon.png" type="Texture" id=2]
+[ext_resource path="res://weapons/ranged/double_barrel_shotgun/1/double_barrel_shotgun_data.tres" type="Resource" id=3]
+[ext_resource path="res://weapons/melee/stick/1/stick_data.tres" type="Resource" id=4]
+[ext_resource path="res://weapons/melee/knife/1/knife_data.tres" type="Resource" id=5]
+[ext_resource path="res://weapons/ranged/taser/1/taser_data.tres" type="Resource" id=6]
+[ext_resource path="res://weapons/ranged/pistol/1/pistol_data.tres" type="Resource" id=7]
+[ext_resource path="res://weapons/ranged/smg/1/smg_data.tres" type="Resource" id=8]
+[ext_resource path="res://weapons/melee/cactus_mace/1/cactus_mace_data.tres" type="Resource" id=9]
+[ext_resource path="res://weapons/ranged/wand/1/wand_data.tres" type="Resource" id=10]
+[ext_resource path="res://weapons/melee/spear/1/spear_data.tres" type="Resource" id=11]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/vedal_hat.tres" type="Resource" id=12]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/vedal_skin.tres" type="Resource" id=13]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/vedal_face.tres" type="Resource" id=14]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/vedal_effect_comment.tres" type="Resource" id=15]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/vedal_effect_2.tres" type="Resource" id=16]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/vedal_effect_1.tres" type="Resource" id=17]
+[ext_resource path="res://weapons/melee/fist/1/fist_data.tres" type="Resource" id=18]
+[ext_resource path="res://weapons/melee/lightning_shiv/1/lightning_shiv_data.tres" type="Resource" id=19]
+[ext_resource path="res://weapons/melee/claw/1/claw_data.tres" type="Resource" id=20]
+[ext_resource path="res://weapons/ranged/shuriken/1/shuriken_data.tres" type="Resource" id=21]
+[ext_resource path="res://weapons/ranged/slingshot/1/slingshot_data.tres" type="Resource" id=22]
+[ext_resource path="res://weapons/melee/screwdriver/1/screwdriver_data.tres" type="Resource" id=23]
+[ext_resource path="res://weapons/melee/chopper/1/chopper_data.tres" type="Resource" id=24]
+[ext_resource path="res://weapons/melee/plank/1/plank_data.tres" type="Resource" id=25]
+[ext_resource path="res://weapons/melee/wrench/1/wrench_data.tres" type="Resource" id=26]
+[ext_resource path="res://weapons/melee/jousting_lance/1/jousting_lance_data.tres" type="Resource" id=27]
+[ext_resource path="res://weapons/melee/fighting_stick/1/fighting_stick_data.tres" type="Resource" id=28]
+[ext_resource path="res://weapons/ranged/crossbow/1/crossbow_data.tres" type="Resource" id=29]
+[ext_resource path="res://weapons/ranged/revolver/1/revolver_data.tres" type="Resource" id=30]
+[ext_resource path="res://weapons/melee/ghost_axe/1/ghost_axe_data.tres" type="Resource" id=31]
+[ext_resource path="res://weapons/melee/hatchet/1/hatchet_data.tres" type="Resource" id=32]
+[ext_resource path="res://weapons/melee/pruner/1/pruner_data.tres" type="Resource" id=33]
+[ext_resource path="res://weapons/ranged/laser_gun/1/laser_gun_data.tres" type="Resource" id=34]
+[ext_resource path="res://weapons/melee/spiky_shield/1/spiky_shield_data.tres" type="Resource" id=35]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/evil_bat/1/evil_bat_1_data.tres" type="Resource" id=36]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/vedal_drill/1/vedal_drill_1_data.tres" type="Resource" id=37]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/swarm_remote/1/swarm_remote_1_data.tres" type="Resource" id=38]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-vedal"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "NEUROMOD-VEDAL"
+tier = 0
+value = 1
+effects = [ ExtResource( 15 ), ExtResource( 17 ), ExtResource( 16 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [ ExtResource( 14 ), ExtResource( 12 ), ExtResource( 13 ) ]
+tags = [  ]
+wanted_tags = [ "stat_speed" ]
+starting_weapons = [ ExtResource( 37 ), ExtResource( 36 ), ExtResource( 38 ), ExtResource( 9 ), ExtResource( 18 ), ExtResource( 20 ), ExtResource( 5 ), ExtResource( 11 ), ExtResource( 4 ), ExtResource( 28 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 31 ), ExtResource( 25 ), ExtResource( 24 ), ExtResource( 32 ), ExtResource( 27 ), ExtResource( 33 ), ExtResource( 35 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 30 ), ExtResource( 34 ), ExtResource( 10 ), ExtResource( 22 ), ExtResource( 6 ), ExtResource( 21 ), ExtResource( 29 ) ]

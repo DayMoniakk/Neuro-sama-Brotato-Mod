@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_pain-three_days_grace.mp3-7dce3671af40ff129d444b3ad65fe400.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_pain-three_days_grace.mp3"
+dest_files=[ "res://.import/neuromod_evil_pain-three_days_grace.mp3-7dce3671af40ff129d444b3ad65fe400.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

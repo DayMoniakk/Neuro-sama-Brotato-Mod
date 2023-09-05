@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evilKEK.mp3-266ce3075b2e18dcb263bab2044a9f0a.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/evil_neuro/neuromod_evilKEK.mp3"
+dest_files=[ "res://.import/neuromod_evilKEK.mp3-266ce3075b2e18dcb263bab2044a9f0a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

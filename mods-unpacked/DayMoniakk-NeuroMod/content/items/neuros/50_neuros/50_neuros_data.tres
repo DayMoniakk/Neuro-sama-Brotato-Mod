@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/neuros/50_neuros/50_neuros_effect.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/neuros/50_neuros/neuromod_50_neuros.png" type="Texture" id=3]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-50_neuros"
+unlocked_by_default = true
+icon = ExtResource( 3 )
+name = "NEUROMOD-50_NEUROS"
+tier = 2
+value = 100
+effects = [ ExtResource( 2 ) ]
+tracking_text = ""
+max_nb = 1
+item_appearances = [  ]
+tags = [ "stat_harvesting" ]

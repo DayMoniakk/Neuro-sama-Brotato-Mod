@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_nya.mp3-a9d5f66aacb2d387a6c588fe1f24b222.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/anny/neuromod_nya.mp3"
+dest_files=[ "res://.import/neuromod_nya.mp3-a9d5f66aacb2d387a6c588fe1f24b222.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

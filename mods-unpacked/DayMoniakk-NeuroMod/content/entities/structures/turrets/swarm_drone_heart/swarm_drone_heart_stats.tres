@@ -1,0 +1,36 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://weapons/weapon_stats/ranged_weapon_stats.gd" type="Script" id=1]
+[ext_resource path="res://weapons/ranged/laser_gun/gun_silenced_sniper1_shot_04.wav" type="AudioStream" id=2]
+[ext_resource path="res://weapons/ranged/laser_gun/gun_silenced_sniper1_shot_04v2.wav" type="AudioStream" id=3]
+[ext_resource path="res://projectiles/bullet_laser/bullet_laser.tscn" type="PackedScene" id=4]
+
+[resource]
+script = ExtResource( 1 )
+cooldown = 35
+damage = 20
+accuracy = 1.0
+crit_chance = 0.0
+crit_damage = 2.0
+min_range = 0
+max_range = 400
+knockback = 0
+effect_scale = 1.0
+scaling_stats = [ [ "stat_engineering", 1.25 ] ]
+lifesteal = 0.0
+shooting_sounds = [ ExtResource( 2 ), ExtResource( 3 ) ]
+sound_db_mod = -12
+is_healing = false
+recoil = 25
+recoil_duration = 0.1
+additional_cooldown_every_x_shots = -1
+additional_cooldown_multiplier = -1.0
+nb_projectiles = 1
+projectile_spread = 0.0
+piercing = 3
+piercing_dmg_reduction = 0.0
+bounce = 0
+bounce_dmg_reduction = 0.5
+projectile_speed = 3000
+increase_projectile_speed_with_range = false
+projectile_scene = ExtResource( 4 )

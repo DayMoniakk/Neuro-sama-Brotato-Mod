@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_the_rumbling-sim.mp3-7bb4b63bbeafcc9cdd762211efddab2e.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_the_rumbling-sim.mp3"
+dest_files=[ "res://.import/neuromod_evil_the_rumbling-sim.mp3-7bb4b63bbeafcc9cdd762211efddab2e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

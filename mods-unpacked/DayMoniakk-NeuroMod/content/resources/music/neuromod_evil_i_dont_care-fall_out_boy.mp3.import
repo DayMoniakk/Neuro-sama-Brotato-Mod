@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_i_dont_care-fall_out_boy.mp3-57b6745fe76441300c82ff605991d8e6.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_i_dont_care-fall_out_boy.mp3"
+dest_files=[ "res://.import/neuromod_evil_i_dont_care-fall_out_boy.mp3-57b6745fe76441300c82ff605991d8e6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

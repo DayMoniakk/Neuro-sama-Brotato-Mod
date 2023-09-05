@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone.tscn" type="PackedScene" id=1]
+
+[node name="Swarm Drone Rounded" instance=ExtResource( 1 )]
+move_speed = 2.0
+acceleration = 0.5

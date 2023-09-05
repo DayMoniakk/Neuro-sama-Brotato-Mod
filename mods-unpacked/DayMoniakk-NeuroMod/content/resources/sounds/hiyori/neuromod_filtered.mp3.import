@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_filtered.mp3-fa605a464a69096ccf519d17936d91f6.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/hiyori/neuromod_filtered.mp3"
+dest_files=[ "res://.import/neuromod_filtered.mp3-fa605a464a69096ccf519d17936d91f6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

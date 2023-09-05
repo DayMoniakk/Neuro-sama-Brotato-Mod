@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://items/sets/tool/tool_set_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/swarm_remote/1/swarm_remote_1_stats.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/swarm_remote/neuromod_swarm_remote_icon.png" type="Texture" id=4]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/swarm_drone_explosive/swarm_drone_explosive_effect.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/swarm_remote/swarm_remote.tscn" type="PackedScene" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-swarm_remote_4"
+unlocked_by_default = true
+icon = ExtResource( 4 )
+name = "NEUROMOD-SWARM_REMOTE"
+tier = 3
+value = 120
+effects = [ ExtResource( 5 ) ]
+tracking_text = ""
+weapon_id = "weapon_swarm_remote"
+type = 0
+sets = [ ExtResource( 2 ) ]
+scene = ExtResource( 6 )
+stats = ExtResource( 3 )

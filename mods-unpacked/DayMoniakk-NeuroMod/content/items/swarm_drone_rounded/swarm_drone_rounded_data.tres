@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/swarm_drone_rounded/swarm_drone_rounded_effect.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone_rounded/neuromod_swarm_drone_rounded.png" type="Texture" id=3]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-swarm_drone_rounded"
+unlocked_by_default = true
+icon = ExtResource( 3 )
+name = "NEUROMOD-SWARM_DRONE_ROUNDED"
+tier = 0
+value = 20
+effects = [ ExtResource( 2 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [  ]
+tags = [ "stat_engineering" ]

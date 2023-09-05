@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_uprising-muse.mp3-c0c97d20dfefa0358dbe03779ef851b9.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_uprising-muse.mp3"
+dest_files=[ "res://.import/neuromod_evil_uprising-muse.mp3-c0c97d20dfefa0358dbe03779ef851b9.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

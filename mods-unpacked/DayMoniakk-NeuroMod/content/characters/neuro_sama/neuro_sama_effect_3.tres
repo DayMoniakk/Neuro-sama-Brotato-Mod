@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://effects/items/stat_gains_modification_effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "effect_increase_stat_gains"
+text_key = ""
+value = 25
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]
+stat_displayed = "stat_engineering"
+stats_modified = [ "stat_engineering" ]

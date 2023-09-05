@@ -1,0 +1,31 @@
+{
+	"name": "NeuroMod",
+	"namespace": "DayMoniakk",
+	"version_number": "1.0.0",
+	"description": "A mod to bring Neuro Sama's universe to Brotato !",
+	"website_url": "https://github.com/example/repo",
+	"dependencies": [
+		"Darkly77-ContentLoader",
+		"dami-ModOptions"
+	],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["DayMoniakk"],
+			"compatible_mod_loader_version": ["3.0.0"],
+			"compatible_game_version": ["0.6.1.6"],
+			"config_schema": {
+				"title": "NeuroMod Settings",
+				"description": "Config for NeuroMod",
+				"type": "object",
+				"properties": {
+					"Enable Custom Music": {
+						"type": "boolean",
+						"default": true,
+						"tooltip": "All music tracks are performed by NeuroSama or Evil Neuro but most are copyrighted."
+					}
+				}
+			}
+		}
+	}
+}

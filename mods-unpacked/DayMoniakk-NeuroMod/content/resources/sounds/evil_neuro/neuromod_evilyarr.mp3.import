@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evilyarr.mp3-aa9c1348952d88fbc4cc95055e211d03.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/evil_neuro/neuromod_evilyarr.mp3"
+dest_files=[ "res://.import/neuromod_evilyarr.mp3-aa9c1348952d88fbc4cc95055e211d03.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

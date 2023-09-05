@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_oh_1.mp3-49e34189c1ca281373761a46030ca7a6.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/evil_neuro/neuromod_oh_1.mp3"
+dest_files=[ "res://.import/neuromod_oh_1.mp3-49e34189c1ca281373761a46030ca7a6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

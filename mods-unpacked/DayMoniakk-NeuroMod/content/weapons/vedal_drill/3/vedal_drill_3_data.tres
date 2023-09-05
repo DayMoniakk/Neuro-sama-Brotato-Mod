@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/vedal_drill/3/vedal_drill_3_stats.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/vedal_drill/vedal_drill.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/vedal_drill/neuromod_vedal_drill_icon.png" type="Texture" id=4]
+[ext_resource path="res://items/sets/precise/precise_set_data.tres" type="Resource" id=5]
+[ext_resource path="res://items/sets/tool/tool_set_data.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/vedal_drill/4/vedal_drill_4_data.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-vedal_drill_3"
+unlocked_by_default = true
+icon = ExtResource( 4 )
+name = "NEUROMOD-VEDAL_DRILL"
+tier = 2
+value = 95
+effects = [  ]
+tracking_text = ""
+weapon_id = "neuromod-vedal_drill"
+type = 0
+sets = [ ExtResource( 5 ), ExtResource( 6 ) ]
+scene = ExtResource( 3 )
+stats = ExtResource( 2 )
+upgrades_into = ExtResource( 7 )

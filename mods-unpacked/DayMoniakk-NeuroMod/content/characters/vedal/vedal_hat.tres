@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://items/global/item_appearance_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/vedal/neuromod_vedal_hat.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+sprite = ExtResource( 2 )
+position = 4
+display_priority = 4
+depth = 500.0

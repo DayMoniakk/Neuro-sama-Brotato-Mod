@@ -1,0 +1,33 @@
+[gd_resource type="Resource" load_steps=16 format=2]
+
+[ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuromod_neuro_sama_icon.png" type="Texture" id=2]
+[ext_resource path="res://weapons/melee/screwdriver/1/screwdriver_data.tres" type="Resource" id=4]
+[ext_resource path="res://weapons/melee/plank/1/plank_data.tres" type="Resource" id=5]
+[ext_resource path="res://weapons/melee/wrench/1/wrench_data.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_sama_effect_1.tres" type="Resource" id=12]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_hairs_data.tres" type="Resource" id=13]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_eyes.tres" type="Resource" id=14]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_mouth.tres" type="Resource" id=15]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_suit.tres" type="Resource" id=16]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/swarm_remote/1/swarm_remote_1_data.tres" type="Resource" id=18]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_sama_effect_2.tres" type="Resource" id=19]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_sama_effect_3.tres" type="Resource" id=20]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_sama_effect_4.tres" type="Resource" id=21]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/neuro_sama/neuro_sama_effect_comment.tres" type="Resource" id=22]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-neuro_sama"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "NEUROMOD-NEURO_SAMA"
+tier = 0
+value = 1
+effects = [ ExtResource( 22 ), ExtResource( 12 ), ExtResource( 20 ), ExtResource( 19 ), ExtResource( 21 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ]
+tags = [  ]
+wanted_tags = [ "stat_engineering" ]
+starting_weapons = [ ExtResource( 18 ), ExtResource( 6 ), ExtResource( 4 ), ExtResource( 5 ) ]

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/ellis_propeller_book/neuromod_ellis_propeller_book.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/ellis_propeller_book/ellis_propeller_effect_2.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/ellis_propeller_book/ellis_propeller_effect_1.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-ellis_propeller"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "NEUROMOD-ELLIS_PROPELLER"
+tier = 0
+value = 27
+effects = [ ExtResource( 4 ), ExtResource( 3 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [  ]
+tags = [ "stat_speed" ]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_vedal_noise_4.mp3-5e947ef7a3512cd50864e41c31cc3b7c.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/vedal/neuromod_vedal_noise_4.mp3"
+dest_files=[ "res://.import/neuromod_vedal_noise_4.mp3-5e947ef7a3512cd50864e41c31cc3b7c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

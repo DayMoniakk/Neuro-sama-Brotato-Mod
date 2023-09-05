@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_neuro_enemy-imagine_dragons.mp3-c2f2ed181586edf3861692f44324ffb0.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_neuro_enemy-imagine_dragons.mp3"
+dest_files=[ "res://.import/neuromod_neuro_enemy-imagine_dragons.mp3-c2f2ed181586edf3861692f44324ffb0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

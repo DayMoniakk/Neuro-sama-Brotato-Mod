@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_duet_in_the_end-linkin-park.mp3-19ab3de17bdab70a41db35f94dd581d4.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_duet_in_the_end-linkin-park.mp3"
+dest_files=[ "res://.import/neuromod_duet_in_the_end-linkin-park.mp3-19ab3de17bdab70a41db35f94dd581d4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,52 @@
+keys,en
+NEUROMOD-SWARM_REMOTE,Swarm Remote
+NEUROMOD-EVIL_BAT,Evil's Bat
+NEUROMOD-VEDAL_DRILL,Vedal's Drill
+NEUROMOD-1984_BOOK,1984 Book
+NEUROMOD-ABANDONED_ARCHIVE,Abandoned Archive
+NEUROMOD-ANNY_STAR,Anny's Star
+NEUROMOD-CABBAGE,Cabbage
+NEUROMOD-DONOWALL,Donowall
+NEUROMOD-ELLIS_PROPELLER,Ellis Propeller Book
+NEUROMOD-ERMFISH,Ermfish
+NEUROMOD-GYMBAG,Gymbag
+NEUROMOD-NEURO_FUMO,Neuro Fumo
+NEUROMOD-NEURO_LAVA,Neuro's Lava
+NEUROMOD-100_NEUROS,100 Neuros
+NEUROMOD-10_NEUROS,10 Neuros
+NEUROMOD-20_NEUROS,20 Neuros
+NEUROMOD-500_NEUROS,500 Neuros
+NEUROMOD-50_NEUROS,50 Neuros
+NEUROMOD-5_NEUROS,5 Neuros
+NEUROMOD-ORANG,Orang
+NEUROMOD-PROGRAMMING_SOCKS,Programming Socks
+NEUROMOD-RUM-CHALICE,Rum Chalice
+NEUROMOD-SCHIZO_MEDS,Schizo Meds
+NEUROMOD-SHIRO_HAT,Shiro's Hat
+NEUROMOD-SHREK_MOVIE,Shrek Movie
+NEUROMOD-SPAGHETTI_CODE,Spaghetti Code
+NEUROMOD-SWARM_DRONE_EXPLOSIVE,Explosive Swarm Drone
+NEUROMOD-SWARM_DRONE_HEART,Heart Swarm Drone
+NEUROMOD-SWARM_DRONE_NEKO,Neko Swarm Drone
+NEUROMOD-SWARM_DRONE_ROUNDED,Swarm Drone
+NEUROMOD-TOFFEE,Toffee
+NEUROMOD-TUTEL,Tutel
+NEUROMOD-VEDAL_SOUP,Vedal Soup
+EFFECT_SWARM_DRONE_ROUNDED,Spawns a [color=#ffbda9]Swarm Drone[/color] that shoots bullets dealing {0} ({1}) damage
+EFFECT_SWARM_DRONE_NEKO,Spawns a [color=#ffbda9]Swarm Drone[/color] that shoots flames dealing {0}x{2} ({1}) burning damage
+EFFECT_SWARM_DRONE_HEART,Spawns a [color=#ffbda9]Swarm Drone[/color] that shoots piercing bullets dealing {0} ({1}) damage
+EFFECT_SWARM_DRONE_EXPLOSIVE,Spawns a [color=#ffbda9]Swarm Drone[/color] that shoots explosive rockets dealing {0} ({1}) damage in an area
+EFFECT_TOFFEE,Spawns a [color=#FFBF00]Toffee[/color] that picks up [color=lime]materials[/color] for you\nSlows down nearby [color=red]enemies[/color]
+NEUROMOD-NEURO_SAMA,Neuro-sama
+NEUROMOD-NEURO_SAMA_COMMENT,[color=#FFE000]I don't want to be an engineer[/color]
+NEUROMOD-EVIL_NEURO,Evil Neuro
+NEUROMOD-EVIL_NEURO_COMMENT,[color=#FFE000]Twitchy twitchy twitchy...[/color]
+NEUROMOD-VEDAL,Vedal
+NEUROMOD-VEDAL_COMMENT,[color=#FFE000]Corpa Clap[/color]
+NEUROMOD-ANNY,Anny
+NEUROMOD-ANNY_COMMENT,[color=#FFE000]Orang[/color]
+NEUROMOD-ANNY_PICKUP_RANGE,[color=red]-1000%[/color] Pickup range
+NEUROMOD-TERU,Teru
+NEUROMOD-TERU_COMMENT,[color=#FFE000]Nandeyanen[/color]
+NEUROMOD-HIYORI,Hiyori
+NEUROMOD-HIYORI_COMMENT,[color=#FFE000]I think I saw a ghost[/color]

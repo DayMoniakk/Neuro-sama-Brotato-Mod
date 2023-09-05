@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_teru_5.mp3-a2197cf6676f7b1ba94e3ed18caef70c.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/teru/neuromod_teru_5.mp3"
+dest_files=[ "res://.import/neuromod_teru_5.mp3-a2197cf6676f7b1ba94e3ed18caef70c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

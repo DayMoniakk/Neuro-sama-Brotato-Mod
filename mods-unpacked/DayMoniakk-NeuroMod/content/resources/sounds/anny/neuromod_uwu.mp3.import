@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_uwu.mp3-42b4ad72ade55f50903875e68062ce05.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/anny/neuromod_uwu.mp3"
+dest_files=[ "res://.import/neuromod_uwu.mp3-42b4ad72ade55f50903875e68062ce05.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

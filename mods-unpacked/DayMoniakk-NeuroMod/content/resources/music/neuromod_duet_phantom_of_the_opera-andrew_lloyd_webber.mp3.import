@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_duet_phantom_of_the_opera-andrew_lloyd_webber.mp3-c427f6ce35a97436c334a8b53c736350.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_duet_phantom_of_the_opera-andrew_lloyd_webber.mp3"
+dest_files=[ "res://.import/neuromod_duet_phantom_of_the_opera-andrew_lloyd_webber.mp3-c427f6ce35a97436c334a8b53c736350.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

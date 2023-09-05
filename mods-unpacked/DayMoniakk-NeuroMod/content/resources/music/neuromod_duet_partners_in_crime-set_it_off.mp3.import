@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_duet_partners_in_crime-set_it_off.mp3-aed48ef93fa9d69aff095c0845e9895d.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_duet_partners_in_crime-set_it_off.mp3"
+dest_files=[ "res://.import/neuromod_duet_partners_in_crime-set_it_off.mp3-aed48ef93fa9d69aff095c0845e9895d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

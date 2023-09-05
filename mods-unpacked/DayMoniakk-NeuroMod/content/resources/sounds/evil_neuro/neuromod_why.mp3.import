@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_why.mp3-8459e5c8f81c909a51f29cbd0e492078.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/evil_neuro/neuromod_why.mp3"
+dest_files=[ "res://.import/neuromod_why.mp3-8459e5c8f81c909a51f29cbd0e492078.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

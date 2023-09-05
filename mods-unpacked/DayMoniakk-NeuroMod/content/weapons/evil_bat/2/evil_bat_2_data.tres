@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/evil_bat/neuromod_evil_bat_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/evil_bat/2/evil_bat_2_stats.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/evil_bat/3/evil_bat_3_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/weapons/evil_bat/Evil Bat.tscn" type="PackedScene" id=5]
+[ext_resource path="res://items/sets/heavy/heavy_set_data.tres" type="Resource" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-evil_bat_2"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "NEUROMOD-EVIL_BAT"
+tier = 1
+value = 38
+effects = [  ]
+tracking_text = ""
+weapon_id = "neuromod-evil_bat"
+type = 0
+sets = [ ExtResource( 6 ) ]
+scene = ExtResource( 5 )
+stats = ExtResource( 3 )
+upgrades_into = ExtResource( 4 )

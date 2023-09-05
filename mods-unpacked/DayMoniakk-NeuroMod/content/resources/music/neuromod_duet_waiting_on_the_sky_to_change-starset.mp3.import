@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_duet_waiting_on_the_sky_to_change-starset.mp3-db4ba1e4170b97e44b7020d6fbe08add.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_duet_waiting_on_the_sky_to_change-starset.mp3"
+dest_files=[ "res://.import/neuromod_duet_waiting_on_the_sky_to_change-starset.mp3-db4ba1e4170b97e44b7020d6fbe08add.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

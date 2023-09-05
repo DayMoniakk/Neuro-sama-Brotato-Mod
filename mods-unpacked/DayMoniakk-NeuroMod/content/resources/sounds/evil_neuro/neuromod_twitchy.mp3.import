@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_twitchy.mp3-7beacebae4ff4db1123fdf16b6f70135.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/evil_neuro/neuromod_twitchy.mp3"
+dest_files=[ "res://.import/neuromod_twitchy.mp3-7beacebae4ff4db1123fdf16b6f70135.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

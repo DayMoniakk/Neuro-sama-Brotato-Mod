@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_gymbag.mp3-22903d4d31b884abf240aee6f9492af2.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/sounds/neuro_sama/neuromod_gymbag.mp3"
+dest_files=[ "res://.import/neuromod_gymbag.mp3-22903d4d31b884abf240aee6f9492af2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

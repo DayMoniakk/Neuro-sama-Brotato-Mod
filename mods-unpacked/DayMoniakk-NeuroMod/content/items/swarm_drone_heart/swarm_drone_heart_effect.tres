@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://effects/items/turret_effect.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone_heart/swarm_drone_heart_stats.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/entities/structures/turrets/swarm_drone_heart/Swarm Drone Heart.tscn" type="PackedScene" id=3]
+
+[resource]
+script = ExtResource( 1 )
+key = "swarm_drone_heart"
+text_key = "effect_swarm_drone_heart"
+value = 1
+custom_key = ""
+storage_method = 0
+effect_sign = 3
+custom_args = [  ]
+spawn_cooldown = -1
+scene = ExtResource( 3 )
+stats = ExtResource( 2 )
+effects = [  ]
+spawn_around_player = 200
+can_be_grouped = true
+shooting_animation_speed = 1.0
+is_burning = false
+is_spawning = false

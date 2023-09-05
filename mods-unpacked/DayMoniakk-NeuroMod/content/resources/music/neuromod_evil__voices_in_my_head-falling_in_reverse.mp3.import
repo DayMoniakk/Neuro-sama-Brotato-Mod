@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil__voices_in_my_head-falling_in_reverse.mp3-8779aef8b5bd353286b52328aeb27e50.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil__voices_in_my_head-falling_in_reverse.mp3"
+dest_files=[ "res://.import/neuromod_evil__voices_in_my_head-falling_in_reverse.mp3-8779aef8b5bd353286b52328aeb27e50.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

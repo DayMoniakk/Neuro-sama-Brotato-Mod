@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_neuro_world.execute(me)-mili.mp3-422950a2b8d1a95b0a0249c6cba3454f.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_neuro_world.execute(me)-mili.mp3"
+dest_files=[ "res://.import/neuromod_neuro_world.execute(me)-mili.mp3-422950a2b8d1a95b0a0249c6cba3454f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/1984_book/neuromod_1984_book.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/1984_book/1984_book_effect_2.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/items/1984_book/1984_book_effect_1.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "neuromod-1984_book"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "NEUROMOD-1984_BOOK"
+tier = 1
+value = 28
+effects = [ ExtResource( 4 ), ExtResource( 3 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [  ]
+tags = [ "stat_dodge" ]
