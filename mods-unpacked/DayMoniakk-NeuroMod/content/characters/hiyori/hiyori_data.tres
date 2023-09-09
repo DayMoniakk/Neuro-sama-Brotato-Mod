@@ -48,5 +48,5 @@ tracking_text = ""
 max_nb = -1
 item_appearances = [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 16 ) ]
 tags = [  ]
-wanted_tags = [  ]
+wanted_tags = [ "stat_dodge" ]
 starting_weapons = [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 25 ), ExtResource( 24 ), ExtResource( 31 ), ExtResource( 11 ), ExtResource( 3 ), ExtResource( 33 ), ExtResource( 8 ), ExtResource( 29 ), ExtResource( 34 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 9 ), ExtResource( 32 ), ExtResource( 27 ), ExtResource( 21 ), ExtResource( 26 ), ExtResource( 4 ) ]
