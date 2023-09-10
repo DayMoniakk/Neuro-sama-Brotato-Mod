@@ -24,5 +24,5 @@ This mod aims to bring the universe of the AI vtuber Neuro-sama to brotato, the 
 * Neuro Sama hair for the brotato logo by ????
 
 ## DMCA Warning
-This mod contains custom music singed by Neuro-sama and Evil Neuro, most of the songs are copyrighted.
+This mod contains custom music sung by Neuro-sama and Evil Neuro, most of the songs are copyrighted.
 If you're a streamer and want to avoid a copyright strike don't worry, go to settings/mods and disable custom music.
