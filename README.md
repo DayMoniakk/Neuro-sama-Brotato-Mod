@@ -14,6 +14,10 @@ This mod aims to bring the universe of the AI vtuber Neuro-sama to brotato, the 
 * [ContentLoader](https://github.com/BrotatoMods/Brotato-ContentLoader)
 * [ModOptions](https://github.com/BrotatoMods/Brotato-Mod-Options)
 
+## Languages supported
+* English
+* Chinese (translation by [Neuro21烤肉组](https://space.bilibili.com/1880487363))
+
 ## Credits
 * Neuro-sama, Evil Neuro & Vedal: [Twitch channel](https://www.twitch.tv/vedal987)
 * Anny: [Twitch channel](https://www.twitch.tv/anny)
