@@ -1,7 +1,7 @@
 {
 	"name": "NeuroMod",
 	"namespace": "DayMoniakk",
-	"version_number": "1.0.0",
+	"version_number": "1.1.0",
 	"description": "A mod to bring Neuro Sama's universe to Brotato !",
 	"website_url": "https://github.com/example/repo",
 	"dependencies": [

@@ -31,6 +31,7 @@ func install_script_extensions(modloader: ModLoader) -> void:
 func add_translations() -> void:
 	translations_dir_path = mod_dir_path.plus_file("translations")
 	ModLoaderMod.add_translation(translations_dir_path.plus_file("/neuromod_text.en.translation"))
+	ModLoaderMod.add_translation(translations_dir_path.plus_file("/neuromod_text.zh.translation"))
 
 
 func _ready() -> void:

@@ -5,10 +5,10 @@ type="Translation"
 
 [deps]
 
-files=[ "res://mods-unpacked/DayMoniakk-NeuroMod/translations/neuromod_text.en.translation" ]
+files=[ "res://mods-unpacked/DayMoniakk-NeuroMod/translations/neuromod_text.en.translation", "res://mods-unpacked/DayMoniakk-NeuroMod/translations/neuromod_text.zh.translation" ]
 
 source_file="res://mods-unpacked/DayMoniakk-NeuroMod/translations/neuromod_text.csv"
-dest_files=[ "res://mods-unpacked/DayMoniakk-NeuroMod/translations/neuromod_text.en.translation" ]
+dest_files=[ "res://mods-unpacked/DayMoniakk-NeuroMod/translations/neuromod_text.en.translation", "res://mods-unpacked/DayMoniakk-NeuroMod/translations/neuromod_text.zh.translation" ]
 
 [params]
 
