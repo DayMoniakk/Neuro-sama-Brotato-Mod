@@ -9,6 +9,8 @@ This mod aims to bring the universe of the AI vtuber Neuro-sama to brotato, the 
 * custom musics
 * custom hurt sounds for the mod's characters
 
+[**Download the mod here**](https://steamcommunity.com/sharedfiles/filedetails/?id=3031243699)
+
 ## Requirements
 * [ModLoader](https://github.com/GodotModding/godot-mod-loader)
 * [ContentLoader](https://github.com/BrotatoMods/Brotato-ContentLoader)
