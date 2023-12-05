@@ -3,13 +3,14 @@ extends "res://entities/structures/turret/turret.gd"
 export var min_player_dist := 150.0
 export var move_speed := 2.0
 export var acceleration := 0.02
-export var friction := 0.05
+export var stop_friction := 0.05
 
 var player: Node2D
 var velocity := Vector2.ZERO
 
 func _ready() -> void:
 	._ready()
+
 	player = TempStats.player
 
 func _physics_process(delta: float) -> void:
@@ -25,6 +26,6 @@ func _physics_process(delta: float) -> void:
 	if curr_pos.distance_to(player_pos) > min_player_dist:
 		velocity = velocity.linear_interpolate(dir, acceleration)
 	else:
-		velocity = velocity.linear_interpolate(Vector2.ZERO, friction)
+		velocity = velocity.linear_interpolate(Vector2.ZERO, stop_friction)
 
-	move_and_slide(velocity * move_speed)
+	linear_velocity = velocity * move_speed

@@ -243,9 +243,10 @@ radius = 32.0
 [sub_resource type="CircleShape2D" id=8]
 radius = 90.0
 
-[node name="Toffee" type="KinematicBody2D"]
+[node name="Toffee" type="RigidBody2D"]
 collision_layer = 512
 collision_mask = 513
+mode = 2
 script = ExtResource( 3 )
 
 [node name="Animation" type="Node2D" parent="."]

@@ -1,7 +1,7 @@
 {
 	"name": "NeuroMod",
 	"namespace": "DayMoniakk",
-	"version_number": "1.1.0",
+	"version_number": "1.1.1",
 	"description": "A mod to bring Neuro Sama's universe to Brotato !",
 	"website_url": "https://github.com/example/repo",
 	"dependencies": [
@@ -12,8 +12,8 @@
 		"godot": {
 			"incompatibilities": [],
 			"authors": ["DayMoniakk"],
-			"compatible_mod_loader_version": ["3.0.0"],
-			"compatible_game_version": ["0.6.1.6"],
+			"compatible_mod_loader_version": ["6.2.0"],
+			"compatible_game_version": ["1.0.1.3"],
 			"config_schema": {
 				"title": "NeuroMod Settings",
 				"description": "Config for NeuroMod",
