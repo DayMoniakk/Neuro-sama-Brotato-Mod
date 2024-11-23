@@ -26,6 +26,8 @@ func install_script_extensions(modloader: ModLoader) -> void:
 	modloader.install_script_extension(extensions_dir_path + "/main_menu.gd")
 	modloader.install_script_extension(extensions_dir_path + "/title_screen.gd")
 	modloader.install_script_extension(extensions_dir_path + "/player.gd")
+	modloader.install_script_extension(extensions_dir_path + "/temp_stats.gd")
+	modloader.install_script_extension(extensions_dir_path + "/entity_service.gd")
 
 
 func add_translations() -> void:

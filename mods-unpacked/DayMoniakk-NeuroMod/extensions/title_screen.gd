@@ -20,5 +20,7 @@ const splash_sprites := [
 	"res://mods-unpacked/DayMoniakk-NeuroMod/content/ui/menus/title_screen/splash_art/neuromod_splash_14.png"
 ]
 
-func _ready() -> void:
-	get_node("BackgroundBrotato").texture = load(splash_sprites[randi() % splash_sprites.size()])
+func reload_background() -> void:
+	.reload_background()
+
+	get_node("AnimatedBackgroundContainer/BaseTitleScreenBackground/BackgroundBrotato").texture = load(splash_sprites[randi() % splash_sprites.size()])

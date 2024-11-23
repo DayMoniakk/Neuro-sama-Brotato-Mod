@@ -60,7 +60,11 @@ const vedal_hurt := [
 ]
 
 func _ready() -> void:
-	match RunData.current_character.my_id:
+	TempStats.register_player_node(self, player_index)
+
+	var current_character = RunData.get_player_character(player_index)
+
+	match current_character.my_id:
 		"neuromod-anny":
 			hurt_sounds = get_sound_array(anny_hurt)
 		"neuromod-evil_neuro":
@@ -79,5 +83,5 @@ func get_sound_array(paths: Array) -> Array:
 	for path in paths: output.append(load(path))
 	return output
 
-func update_player_stats() -> void:
-	.update_player_stats()
+func update_player_stats(reset_current_health: = false) -> void:
+	.update_player_stats(reset_current_health)

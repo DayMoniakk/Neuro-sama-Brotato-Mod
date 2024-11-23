@@ -11,7 +11,7 @@ var velocity := Vector2.ZERO
 func _ready() -> void:
 	._ready()
 
-	player = TempStats.player
+	player = TempStats.player_nodes[player_index]
 
 func _physics_process(delta: float) -> void:
 	._physics_process(delta)

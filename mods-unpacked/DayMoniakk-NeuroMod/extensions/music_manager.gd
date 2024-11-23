@@ -7,6 +7,7 @@ var settings: Dictionary
 
 var original_tracks: Array
 var custom_tracks: Array
+var use_custom_tracks := true
 
 func _ready() -> void:
 	fill_tracks()
@@ -18,27 +19,26 @@ func _ready() -> void:
 		settings = config_handler.get_settings()
 		config_handler.connect("setting_changed", self, "on_setting_changed")
 
-		set_tracks(settings[ENABLE_CUSTOM_MUSIC_NAME])
+		use_custom_tracks = settings[ENABLE_CUSTOM_MUSIC_NAME]
+		set_shuffled_tracks()
 
-func on_setting_changed(setting_name:String, value) -> void:
+func on_setting_changed(setting_name: String, value) -> void:
 	if setting_name == ENABLE_CUSTOM_MUSIC_NAME:
 		config_handler.set_setting(ENABLE_CUSTOM_MUSIC_NAME, value)
-		set_tracks(value)
+		use_custom_tracks = value
+		set_shuffled_tracks()
 
-func set_tracks(is_custom: bool, force_play: bool = true) -> void:
-	if custom_tracks.size() == 0: return
-
-	if is_custom:
-		music_tracks = custom_tracks
+func set_shuffled_tracks() -> void:
+	if use_custom_tracks:
+		shuffled_tracks = custom_tracks
+		shuffled_tracks.shuffle()
 	else:
-		music_tracks = original_tracks
+		.set_shuffled_tracks()
 
-	if force_play:
-		shuffled_tracks.clear()
-		play()
+	on_track_finished()
 
 func fill_tracks() -> void:
-	original_tracks = music_tracks
+	original_tracks = shuffled_tracks
 
 	print("[NeuroMod-CustomMusic] " + "Attempting to load custom music tracks...")
 	var music_dir_path := "res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/"

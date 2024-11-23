@@ -17,5 +17,6 @@ spawn_cooldown = -1
 scene = ExtResource( 3 )
 stats = ExtResource( 2 )
 effects = [  ]
+spawn_in_center = -1
 spawn_around_player = 100
 can_be_grouped = true

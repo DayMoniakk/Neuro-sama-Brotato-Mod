@@ -14,7 +14,7 @@ onready var _slow_hitbox = $SlowHitbox
 func _ready() -> void:
 	._ready()
 	_slow_hitbox.deals_damage = false
-	player = TempStats.player
+	player = TempStats.player_nodes[player_index]
 
 func _physics_process(_delta: float) -> void:
 	var player_pos := player.global_position
@@ -29,7 +29,7 @@ func _physics_process(_delta: float) -> void:
 
 func _on_ItemPickupArea_area_entered(area: Area2D) -> void:
 	area.attracted_by = player
-	area.pickup()
+	area.pickup(player_index)
 
 	if consumables_in_range.has(area):
 		consumables_in_range.erase(area)
@@ -48,9 +48,9 @@ func _on_ItemAttractArea_area_exited(area: Area2D) -> void:
 	if is_heal and consumables_in_range.has(area):
 		consumables_in_range.erase(area)
 
-func die(_knockback_vector:Vector2 = Vector2.ZERO, p_cleaning_up:bool = false)->void :
+func die(args: = DieArgs.new()) -> void :
 	$Animation/Sprite.scale = Vector2(0.075, 0.075)
-	.die(_knockback_vector, p_cleaning_up)
+	.die(args)
 	$Animation/Sprite.scale = Vector2(0.075, 0.075)
 
 func _on_SlowHitbox_hit_something(thing_hit, _damage_dealt) -> void:

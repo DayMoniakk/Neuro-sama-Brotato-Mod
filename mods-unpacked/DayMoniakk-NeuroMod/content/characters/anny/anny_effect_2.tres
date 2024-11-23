@@ -8,6 +8,6 @@ key = "neuromod-toffee"
 text_key = "effect_starting_item"
 value = 1
 custom_key = "starting_item"
-storage_method = 0
+storage_method = 1
 effect_sign = 3
 custom_args = [  ]

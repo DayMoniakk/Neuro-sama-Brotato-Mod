@@ -8,6 +8,6 @@ key = "item_tardigrade"
 text_key = "effect_starting_item"
 value = 3
 custom_key = "starting_item"
-storage_method = 0
+storage_method = 1
 effect_sign = 3
 custom_args = [  ]
