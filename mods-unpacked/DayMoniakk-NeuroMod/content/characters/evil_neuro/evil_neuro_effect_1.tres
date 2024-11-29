@@ -9,6 +9,7 @@ arg_index = 2
 arg_sign = 4
 arg_value = 4
 arg_format = 0
+arg_key = ""
 
 [resource]
 script = ExtResource( 1 )
@@ -16,6 +17,6 @@ key = "stat_attack_speed"
 text_key = "effect_unique_weapon_bonus"
 value = 10
 custom_key = "additional_weapon_effects"
-storage_method = 0
+storage_method = 1
 effect_sign = 0
 custom_args = [ SubResource( 1 ) ]

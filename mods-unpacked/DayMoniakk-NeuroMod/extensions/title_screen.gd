@@ -22,5 +22,13 @@ const splash_sprites := [
 
 func reload_background() -> void:
 	.reload_background()
+	yield(get_tree(), "idle_frame")
 
-	get_node("AnimatedBackgroundContainer/BaseTitleScreenBackground/BackgroundBrotato").texture = load(splash_sprites[randi() % splash_sprites.size()])
+	var base_character = get_node_or_null("AnimatedBackgroundContainer/BaseTitleScreenBackground/BackgroundBrotato")
+	if base_character:
+		base_character.texture = load(splash_sprites[randi() % splash_sprites.size()])
+	else:
+		var dlc_character = get_node("AnimatedBackgroundContainer").get_child(0).get_node_or_null("Brotato_Centered")
+		if dlc_character:
+			dlc_character.texture = load(splash_sprites[randi() % splash_sprites.size()])
+			dlc_character.material = load("res://mods-unpacked/DayMoniakk-NeuroMod/offset_mat.tres")
