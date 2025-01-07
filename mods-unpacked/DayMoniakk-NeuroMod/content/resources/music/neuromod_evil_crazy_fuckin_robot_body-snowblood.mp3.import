@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_crazy_fuckin_robot_body-snowblood.mp3-a92ede51895cbfccd4a7ecbd3b9f2249.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_crazy_fuckin_robot_body-snowblood.mp3"
+dest_files=[ "res://.import/neuromod_evil_crazy_fuckin_robot_body-snowblood.mp3-a92ede51895cbfccd4a7ecbd3b9f2249.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

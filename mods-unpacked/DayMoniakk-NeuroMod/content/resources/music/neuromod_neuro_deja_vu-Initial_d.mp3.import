@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_neuro_deja_vu-Initial_d.mp3-ed8a0a67e80bab53888eadf69778a979.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_neuro_deja_vu-Initial_d.mp3"
+dest_files=[ "res://.import/neuromod_neuro_deja_vu-Initial_d.mp3-ed8a0a67e80bab53888eadf69778a979.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

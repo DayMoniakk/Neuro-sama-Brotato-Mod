@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=18 format=2]
+[gd_resource type="Resource" load_steps=19 format=2]
 
 [ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/teru/neuromod_teru_icon.png" type="Texture" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://weapons/melee/excalibur/4/excalibur_4_data.tres" type="Resource" id=7]
 [ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/teru/teru_effect_5.tres" type="Resource" id=8]
 [ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/teru/teru_effect_6.tres" type="Resource" id=9]
+[ext_resource path="res://weapons/melee/dextroyer/4/dextroyer_4_data.tres" type="Resource" id=10]
 [ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/teru/teru_eyes.tres" type="Resource" id=13]
 [ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/teru/teru_hairs.tres" type="Resource" id=14]
 [ext_resource path="res://mods-unpacked/DayMoniakk-NeuroMod/content/characters/teru/teru_mouth.tres" type="Resource" id=15]
@@ -28,8 +29,13 @@ tier = 0
 value = 1
 effects = [ ExtResource( 16 ), ExtResource( 19 ), ExtResource( 9 ), ExtResource( 18 ), ExtResource( 17 ), ExtResource( 8 ), ExtResource( 20 ) ]
 tracking_text = ""
+is_lockable = true
+is_cursed = false
+curse_factor = 0.0
 max_nb = -1
 item_appearances = [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ) ]
 tags = [  ]
 wanted_tags = [ "stat_percent_damage" ]
-starting_weapons = [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 4 ) ]
+banned_item_groups = [  ]
+banned_items = [  ]
+starting_weapons = [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 10 ) ]

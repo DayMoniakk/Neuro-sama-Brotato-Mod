@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_killer_in_the_mirror-set_it_off.mp3-0ad0243466cccbadbf8ac4368f882bf5.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_killer_in_the_mirror-set_it_off.mp3"
+dest_files=[ "res://.import/neuromod_evil_killer_in_the_mirror-set_it_off.mp3-0ad0243466cccbadbf8ac4368f882bf5.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

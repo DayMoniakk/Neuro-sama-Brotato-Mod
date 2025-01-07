@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_icarus-starset.mp3-e7ba9ad20c7f694973ec0a9a53ce019d.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_icarus-starset.mp3"
+dest_files=[ "res://.import/neuromod_evil_icarus-starset.mp3-e7ba9ad20c7f694973ec0a9a53ce019d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

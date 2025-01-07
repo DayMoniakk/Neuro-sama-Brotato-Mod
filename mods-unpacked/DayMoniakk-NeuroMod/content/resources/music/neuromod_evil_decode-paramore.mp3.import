@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_decode-paramore.mp3-e2940fc2c9f4bc835d316d518d6e3947.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_decode-paramore.mp3"
+dest_files=[ "res://.import/neuromod_evil_decode-paramore.mp3-e2940fc2c9f4bc835d316d518d6e3947.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

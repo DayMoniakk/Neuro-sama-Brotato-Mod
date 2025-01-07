@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_bringing_it+down-starset.mp3-b7a480f33f862118abdaf82b88816c5b.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_bringing_it+down-starset.mp3"
+dest_files=[ "res://.import/neuromod_evil_bringing_it+down-starset.mp3-b7a480f33f862118abdaf82b88816c5b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

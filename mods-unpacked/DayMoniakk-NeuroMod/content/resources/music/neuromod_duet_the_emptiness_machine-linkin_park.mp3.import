@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_duet_the_emptiness_machine-linkin_park.mp3-4486f6ab6eb706a5e0d54b1b9ef4ea50.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_duet_the_emptiness_machine-linkin_park.mp3"
+dest_files=[ "res://.import/neuromod_duet_the_emptiness_machine-linkin_park.mp3-4486f6ab6eb706a5e0d54b1b9ef4ea50.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

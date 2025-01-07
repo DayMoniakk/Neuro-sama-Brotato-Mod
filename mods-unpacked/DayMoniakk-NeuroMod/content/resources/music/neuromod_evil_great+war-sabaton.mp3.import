@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/neuromod_evil_great+war-sabaton.mp3-f93c6ece473a1224b81c39160bffbc7f.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/DayMoniakk-NeuroMod/content/resources/music/neuromod_evil_great+war-sabaton.mp3"
+dest_files=[ "res://.import/neuromod_evil_great+war-sabaton.mp3-f93c6ece473a1224b81c39160bffbc7f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
