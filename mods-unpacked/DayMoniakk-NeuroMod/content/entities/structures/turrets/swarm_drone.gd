@@ -11,6 +11,7 @@ var velocity := Vector2.ZERO
 func _ready() -> void:
 	._ready()
 
+	yield(get_tree(), "idle_frame")
 	player = TempStats.player_nodes[player_index]
 
 func _physics_process(delta: float) -> void:

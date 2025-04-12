@@ -14,6 +14,7 @@ onready var _slow_hitbox = $SlowHitbox
 func _ready() -> void:
 	._ready()
 	_slow_hitbox.deals_damage = false
+	yield(get_tree(), "idle_frame")
 	player = TempStats.player_nodes[player_index]
 
 func _physics_process(_delta: float) -> void:
